@@ -4,7 +4,7 @@ from PROFESSOR import app
 from config import BOT_USERNAME
 
 start_txt = """
-❥ ωєℓ¢σмє тσ тєαм ɾιყα 
+❥ ωєℓ¢σмє  ˹ 𝘼𝙣𝙪𝙥𝙖𝙢𝙖 ™ 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 ˼
 
 ❥ ʀᴇᴘᴏ ᴄʜᴀᴀʜɪʏʀ ᴛᴏ ʙᴏᴛ ᴋᴏ 
 
@@ -23,17 +23,17 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/RiyaXmusicbot?startgroup=true")
+          InlineKeyboardButton("♡ α∂∂ иσω ♡", url=f"https://t.me/{app.username}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/KSDHEROKUCC"),
-          InlineKeyboardButton("⌯꯭ 𝐇꯭ ꯭ꭎ ꯭η ꯭𝗍 𝛆꯭ ʀ ꯭🥂꯭ 𝗫꯭ ꯭ᴅ ", url="https://t.me/ll_hunter_lll"),
+          InlineKeyboardButton("ѕυρρσɾƚ", url="https://t.me/ANUPAMA_SUPPORT"),
+          InlineKeyboardButton("𝘼𝙣𝙪𝙥𝙖𝙢𝙖 𝗨𝗽𝗱𝗮𝘁𝗲 ✨ ", url="https://t.me/TeamAnupama"),
           ],
                [
-                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/Ksd_bot_network"),
+                InlineKeyboardButton("ᴏᴛʜᴇʀ ʙᴏᴛs", url=f"https://t.me/TeamAnupama"),
 ],
 [
-InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://t.me/RiyaXmusicbot"),
+InlineKeyboardButton("ᴄʜᴇᴄᴋ", url=f"https://telegram.me/Shivang_mishra_op"),
 
         ]]
     
